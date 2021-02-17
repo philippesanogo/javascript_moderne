@@ -42,6 +42,12 @@ body {
 
     display: flex;
     flex-flow: row nowrap;
+
+}
+
+.container_img {
+    background: url(./assets/background-2.jpg) center center/cover;
+    z-index: 999;
 }
 
 .container_background_left {
