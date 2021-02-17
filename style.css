@@ -1,6 +1,57 @@
 /* Couleurs principales du projets */
+
 /* #f7e031 */
 /* #abf731 */
 /* #f77d31 */
 /* #181604 couleur pour la police  */
 /* #fefbea couleur du background */
+
+
+/* reset */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    height: 100vh;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+
+/* styles générales */
+
+/* le background */
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.container_background_left {
+    width: 50%;
+    height: 100%;
+    background: #f7e031;
+}
+
+.container_background_right {
+    width: 50%;
+    height: 100%;
+    background: #fefbea;
+}
