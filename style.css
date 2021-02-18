@@ -35,7 +35,7 @@ body {
 /* le background */
 
 .container {
-  background-color: #181604;
+  background-color: #fff;
 }
 .container_background {
   height: 100%;
@@ -43,13 +43,13 @@ body {
   background: url(./assets/JavaScript-logo.png) center center,
     linear-gradient(
         to right,
-        #f0db4f 0%,
-        #f0db4f 50%,
+        #323330 0%,
         #323330 50%,
-        #323330 100%
+        #f0db4f 50%,
+        #f0db4f 100%
       )
       center center;
-  background-size: 20%, 60% 40%;
+  background-size: 20%, 70% 50%;
   background-repeat: no-repeat, no-repeat;
-  mix-blend-mode: screen;
+  mix-blend-mode: multiply;
 }
