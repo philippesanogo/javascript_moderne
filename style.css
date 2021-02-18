@@ -42,4 +42,5 @@ body {
     linear-gradient(to right, #f7e031 0%, #f7e031 50%, #fefbea 50%, #fefbea 100%);
     background-size: 35%, 100%;
     background-repeat: no-repeat, no-repeat;
+    background-blend-mode: darken;
 }
