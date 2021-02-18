@@ -54,6 +54,7 @@ body {
   background-size: 20%, 70% 50%;
   background-repeat: no-repeat, no-repeat;
   mix-blend-mode: multiply;
+  position: relative;
 }
 
 section.left {
@@ -68,4 +69,13 @@ section.left {
     /* justify-content: center; */
     /* align-items: center; */
     color: #fff;
+}
+
+section.right {
+    width: 35%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    /* background-color: blue; */
 }
