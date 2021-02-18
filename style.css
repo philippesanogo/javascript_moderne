@@ -35,29 +35,11 @@ body {
 
 /* le background */
 
-.container {
+.container_background {
+    height: 100%;
     width: 100%;
-    height: 100%;
-    background: #fff;
-
-    display: flex;
-    flex-flow: row nowrap;
-
-}
-
-.container_img {
-    background: url(./assets/background-2.jpg) center center/cover;
-    z-index: 999;
-}
-
-.container_background_left {
-    width: 50%;
-    height: 100%;
-    background: #f7e031;
-}
-
-.container_background_right {
-    width: 50%;
-    height: 100%;
-    background: #fefbea;
+    background: url(./assets/background-2.jpg) center center,
+    linear-gradient(to right, #f7e031 0%, #f7e031 50%, #fefbea 50%, #fefbea 100%);
+    background-size: 35%, 100%;
+    background-repeat: no-repeat, no-repeat;
 }
