@@ -1,9 +1,9 @@
 /* Couleurs principales du projets */
 
-/* #f7e031 */
+/* #f0db4f */
 /* #abf731 */
 /* #f77d31 */
-/* #181604 couleur pour la police  */
+/* #323330 couleur pour la police  */
 /* #fefbea couleur du background */
 
 /* reset */
@@ -40,15 +40,16 @@ body {
 .container_background {
   height: 100%;
   width: 100%;
-  background: url(./assets/background-2.jpg) center center,
+  background: url(./assets/JavaScript-logo.png) center center,
     linear-gradient(
         to right,
-        #f7e031 0%,
-        #f7e031 50%,
-        #fefbea 50%,
-        #fefbea 100%
+        #f0db4f 0%,
+        #f0db4f 50%,
+        #323330 50%,
+        #323330 100%
       )
       center center;
-  background-size: 25% 40%, 90% 70%;
+  background-size: 20%, 60% 40%;
   background-repeat: no-repeat, no-repeat;
+  mix-blend-mode: screen;
 }
